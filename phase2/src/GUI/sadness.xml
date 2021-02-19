@@ -1,0 +1,59 @@
+<synth>
+	<style id="uoftears">
+		<font name="Century Gothic" size="18"/>
+		<state>
+			<color value="WHITE" type="BACKGROUND"/>
+			<color value="BLACK" type="FOREGROUND"/>
+		</state>
+	</style>
+	<bind style="uoftears" type="region" key=".*"/>
+
+	<style id="buttons">
+		<opaque value="TRUE"/>
+		<font name="Century Gothic" size="18"/>
+		<insets top="15" left="20" bottom="15" right="20"/>
+		<state>
+			<color value="#FFB7C3" type="BACKGROUND"/>
+			<color value="BLACK" type="FOREGROUND"/>
+		</state>
+
+		<state value="MOUSE_OVER">
+			<color value="#FF99AA" type="BACKGROUND"/>
+		</state>
+
+	</style>
+	<bind style="buttons" type="region" key="Button"/>
+
+	<style id="textfield">
+		<opaque value="TRUE"/>
+		<font name="Century Gothic" size="18"/>
+		<insets top="15" left="20" bottom="15" right="20"/>
+		<state>
+			<color value="#FFB7C3" type="BACKGROUND"/>
+			<color value="BLACK" type="FOREGROUND"/>
+		</state>
+
+		<state value="SELECTED">
+			<color value="#FF99AA" type="TEXT_BACKGROUND"/>
+		</state>
+	</style>
+	<bind style="textfield" type="region" key="TextField"/>
+	<bind style="textfield" type="region" key="PasswordField"/>
+
+	<style id="scrollbar">
+		<opaque value="TRUE"/>
+		<state>
+			<color value="#FFB7C3" type="BACKGROUND"/>
+		</state>
+	</style>
+	<bind style="scrollbar" type="region" key="ScrollBarTrack"/>
+
+	<style id="extras">
+		<opaque value="TRUE"/>
+		<state>
+			<color value="#AB4967" type="BACKGROUND"/>
+		</state>
+	</style>
+	<bind style="extras" type="region" key="ScrollBarThumb"/>
+	<bind style="extras" type="region" key="ScrollBar"/>
+</synth>
